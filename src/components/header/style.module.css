@@ -1,0 +1,29 @@
+.headerWrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  box-shadow: 0 5px 10px gray;
+  z-index: 200;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.burger {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.burger img {
+  width: 40px;
+}

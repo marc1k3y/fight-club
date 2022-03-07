@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  max-width: 100vw;
+}
+
+.app-content {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  overflow-y: scroll;
+}
+
+.app-content::-webkit-scrollbar {
+  display: none;
+}

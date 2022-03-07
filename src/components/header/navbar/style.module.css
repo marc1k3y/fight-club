@@ -1,0 +1,19 @@
+.navbarWrapper {
+  flex-direction: column;
+  gap: 15px;
+  position: fixed;
+  top: 50px;
+  right: 0;
+  padding: 10px 20px;
+  background-color: whitesmoke;
+  border-bottom-left-radius: 20px;
+  z-index: 200;
+}
+
+.navbarWrapper a {
+  text-decoration: none;
+  padding: 20px;
+  font-size: 24px;
+  color: black;
+  border-radius: 10px;
+}
