@@ -1,7 +1,11 @@
 import cn from "./style.module.css"
 import fcLogo from "../assets/fc_orel.jpg"
+import { Modal } from "../modal"
+import { useState } from "react"
+import { MyButton } from "../UI/button"
 
 export const About = () => {
+  const [modal, setModal] = useState(false)
   return (
     <div className={cn.aboutWrapper}>
       <div className={cn.clubLogo}>
@@ -22,6 +26,12 @@ export const About = () => {
           </div>
         </div>
       </div>
+      <div className={cn.connect}>
+        <MyButton click={() => setModal(true)}>Связаться с тренером</MyButton>
+      </div>
+      <Modal visible={modal} close={setModal}>
+        hello
+      </Modal>
     </div>
   )
 }

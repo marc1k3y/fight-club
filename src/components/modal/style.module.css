@@ -1,0 +1,31 @@
+.modalWrapper {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgray;
+}
+
+.modalContent {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  min-height: 200px;
+  min-width: 300px;
+  background-color: gray;
+  box-shadow: 10px 10px 15px black;
+  border-radius: 30px;
+}
+
+.modalContent>button {
+  margin-left: auto;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
