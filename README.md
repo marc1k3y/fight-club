@@ -1,9 +1,7 @@
 # FIGHT CLUB EAGLE
 
 ## demo
-```
-https://marc1k3y.github.io/fight-club/
-```
+[a link](https://marc1k3y.github.io/fight-club/)
 
 ## local
 ```
