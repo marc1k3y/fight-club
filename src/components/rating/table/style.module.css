@@ -8,6 +8,15 @@ table {
   box-shadow: 5px 5px 10px gray;
 }
 
+th {
+  font-size: 20px;
+  color: gray;
+}
+
+.name {
+  font-weight: bold;
+}
+
 .medals {
   display: flex;
   align-items: center;

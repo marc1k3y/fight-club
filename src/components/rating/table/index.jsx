@@ -1,8 +1,8 @@
 import { data } from "./data"
 import cn from "./style.module.css"
-import gold from "../../assets/gold.svg"
-import silver from "../../assets/silver.svg"
-import bronze from "../../assets/bronze.svg"
+import gold from "../../../assets/gold.svg"
+import silver from "../../../assets/silver.svg"
+import bronze from "../../../assets/bronze.svg"
 
 export const RatingTable = () => {
   return (
@@ -18,7 +18,7 @@ export const RatingTable = () => {
         {data.map(sportsman =>
           <tr key={sportsman.id} className={cn.sportsmanCard}>
             <td className={cn.sportsmanInfo}>
-              <div>{sportsman.name}</div>
+              <div className={cn.name}>{sportsman.name}</div>
               <div>{sportsman.age} года</div>
             </td>
             <td className={cn.medals}>

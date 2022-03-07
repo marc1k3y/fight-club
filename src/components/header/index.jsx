@@ -1,6 +1,6 @@
 import cn from "./style.module.css"
-import hide from "../assets/hide.svg"
-import show from "../assets/show.svg"
+import hide from "../../assets/hide.svg"
+import show from "../../assets/show.svg"
 import { useState } from "react"
 import { Navbar } from "./navbar"
 

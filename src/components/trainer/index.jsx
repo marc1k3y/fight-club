@@ -1,7 +1,7 @@
 import cn from "./style.module.css"
-import russia from "../assets/russia.svg"
-import trainer from "../assets/trainer.jpg"
-import ms from "../assets/ms.svg"
+import russia from "../../assets/russia.svg"
+import trainer from "../../assets/trainer.jpg"
+import ms from "../../assets/ms.svg"
 import { MyButton } from "../UI/button"
 
 export const Trainer = () => {
