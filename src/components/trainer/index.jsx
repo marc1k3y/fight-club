@@ -7,6 +7,7 @@ import { MyButton } from "../UI/button"
 export const Trainer = () => {
   return (
     <div className={cn.trainerWrapper}>
+      <div className={cn.title}>Тренер</div>
       <div className={cn.avatar}>
         <div className={cn.flag}>
           <img src={russia} alt="russia" />

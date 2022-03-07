@@ -16,12 +16,13 @@
   flex-direction: column;
   min-height: 200px;
   min-width: 300px;
-  background-color: gray;
-  box-shadow: 10px 10px 15px black;
+  background-color: whitesmoke;
+  box-shadow: 10px 10px 15px gray;
   border-radius: 30px;
 }
 
 .modalContent>button {
+  background-color: gray;
   margin-left: auto;
   width: 30px;
   height: 30px;
