@@ -32,7 +32,7 @@ export const Trainer = () => {
         </div>
       </div>
       <div className={cn.achiev}>
-        <MyButton>награды</MyButton>
+        <MyButton>Награды</MyButton>
       </div>
     </div>
   )
