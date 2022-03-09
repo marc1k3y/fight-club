@@ -4,6 +4,7 @@ import { Modal } from "../modal"
 import { useState } from "react"
 import { MyButton } from "../UI/button"
 import map from "../../assets/map.svg"
+import EmailForm from "../emailForm"
 
 export const About = () => {
   const [modal, setModal] = useState(false)
@@ -37,7 +38,7 @@ export const About = () => {
         </MyButton>
       </div>
       <Modal visible={modal} close={setModal}>
-        hello
+        <EmailForm />
       </Modal>
     </div>
   )

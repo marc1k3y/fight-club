@@ -1,0 +1,16 @@
+.emailFormWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.emailFormWrapper>div {
+  display: flex;
+  flex-direction: column;
+}
+
+.emailFormWrapper input, .emailFormWrapper textarea {
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 2px solid gray;
+}
