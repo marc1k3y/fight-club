@@ -48,3 +48,19 @@
 .orden img {
   width: 80px;
 }
+
+.trainerInfo {
+  line-height: 1.3em;
+  background-color: whitesmoke;
+  padding: 10px 20px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px gray;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

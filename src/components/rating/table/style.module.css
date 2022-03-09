@@ -17,6 +17,12 @@ th {
   font-weight: bold;
 }
 
+.medalsWrap {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
 .medals {
   display: flex;
   align-items: center;
