@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fight-club/static/css/main.ce5a139d.css",
-    "main.js": "/fight-club/static/js/main.c9ea7066.js",
+    "main.js": "/fight-club/static/js/main.0fd97cb2.js",
     "static/media/ms.svg": "/fight-club/static/media/ms.c55fc192090ac9664f17a7044952ace4.svg",
     "static/media/fc_orel.jpg": "/fight-club/static/media/fc_orel.2c584e2188a4feac6805.jpg",
     "static/media/trainer.jpg": "/fight-club/static/media/trainer.cb8e4ac0b2df403f3200.jpg",
@@ -14,10 +14,10 @@
     "index.html": "/fight-club/index.html",
     "static/media/russia.svg": "/fight-club/static/media/russia.b41328698709cf180d8d19cd65d03050.svg",
     "main.ce5a139d.css.map": "/fight-club/static/css/main.ce5a139d.css.map",
-    "main.c9ea7066.js.map": "/fight-club/static/js/main.c9ea7066.js.map"
+    "main.0fd97cb2.js.map": "/fight-club/static/js/main.0fd97cb2.js.map"
   },
   "entrypoints": [
     "static/css/main.ce5a139d.css",
-    "static/js/main.c9ea7066.js"
+    "static/js/main.0fd97cb2.js"
   ]
 }
