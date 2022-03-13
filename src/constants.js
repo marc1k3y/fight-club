@@ -1,0 +1,1 @@
+export const api = "https://fcorel.herokuapp.com/api/"
