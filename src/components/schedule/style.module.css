@@ -1,0 +1,40 @@
+.scheduleWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  margin-top: 20px;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.schedule {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: whitesmoke;
+  box-shadow: 10px 10px 15px gray;
+  padding: 20px 30px;
+  border-radius: 30px;
+}
+
+.weekName {
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+.monday, .thusday {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+}
+
+.group {
+  margin-top: 20px;
+}
