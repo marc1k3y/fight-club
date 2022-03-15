@@ -37,6 +37,9 @@ export default function EmailForm() {
   return (
     <form onSubmit={onSubmit} className={cn.emailFormWrapper}>
       <h3>Связаться с тренером</h3>
+      <div className={cn.trainerPhone}>
+        
+      </div>
       <div>
         <label htmlFor="reply_to_number">Ваш номер телефона</label>
         <input
