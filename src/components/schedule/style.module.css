@@ -1,7 +1,7 @@
 .scheduleWrapper {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -16,6 +16,7 @@
 .schedule {
   margin-top: 20px;
   display: flex;
+  gap: 20px;
   justify-content: space-between;
   background-color: whitesmoke;
   box-shadow: 10px 10px 15px gray;
