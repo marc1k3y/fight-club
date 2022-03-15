@@ -2,6 +2,7 @@ import cn from "./style.module.css"
 import { useState } from "react"
 import { send } from "emailjs-com"
 import { MyButton } from "../UI/button"
+import phone from "../../assets/phone.svg"
 
 export default function EmailForm() {
 
@@ -38,9 +39,16 @@ export default function EmailForm() {
     <form onSubmit={onSubmit} className={cn.emailFormWrapper}>
       <h3>Связаться с тренером</h3>
       <div className={cn.trainerPhone}>
-        
+        <div>
+          <img src={phone} alt="phone" />
+        </div>
+        <div>
+          <div>Роман Александрович</div>
+          <a href="tel: +79856194722">+7 (985) 619-47-22</a>
+        </div>
       </div>
-      <div>
+      <div className={cn.inputs}>
+        <div className={cn.anotherEmail}>Или оставить заявку на почту</div>
         <label htmlFor="reply_to_number">Ваш номер телефона</label>
         <input
           type="tel"
@@ -52,7 +60,7 @@ export default function EmailForm() {
           required
         />
       </div>
-      <div>
+      <div className={cn.inputs}>
         <label htmlFor="from_name">Ваше имя</label>
         <input
           type="text"
@@ -62,7 +70,7 @@ export default function EmailForm() {
           required
         />
       </div>
-      <div>
+      <div className={cn.inputs}>
         <label htmlFor="message">Можно оставить сообщение</label>
         <textarea
           name="message"
