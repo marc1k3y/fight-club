@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/fight-club/static/css/main.ce5a139d.css",
-    "main.js": "/fight-club/static/js/main.0fd97cb2.js",
+    "main.css": "/fight-club/static/css/main.f898cfa2.css",
+    "main.js": "/fight-club/static/js/main.18220620.js",
     "static/media/ms.svg": "/fight-club/static/media/ms.c55fc192090ac9664f17a7044952ace4.svg",
     "static/media/fc_orel.jpg": "/fight-club/static/media/fc_orel.2c584e2188a4feac6805.jpg",
     "static/media/trainer.jpg": "/fight-club/static/media/trainer.cb8e4ac0b2df403f3200.jpg",
     "static/media/show.svg": "/fight-club/static/media/show.d087d2624ca0916ea23620b7436fd368.svg",
     "static/media/map.svg": "/fight-club/static/media/map.2600de871781028bf9b30bdebf9269ce.svg",
     "static/media/hide.svg": "/fight-club/static/media/hide.94c072a43d3118eb475aed86c179a629.svg",
+    "static/media/phone.svg": "/fight-club/static/media/phone.b8bfb1f7c217443eaf48c82f193b4d30.svg",
     "static/media/bronze.svg": "/fight-club/static/media/bronze.840776ceaad62eff8bc399aefdd1e5dd.svg",
     "static/media/gold.svg": "/fight-club/static/media/gold.c6e4a06f893391c3ccaccbf253ec7c49.svg",
     "static/media/silver.svg": "/fight-club/static/media/silver.241477cadb43213f985bbda4f46eb6fd.svg",
     "index.html": "/fight-club/index.html",
     "static/media/russia.svg": "/fight-club/static/media/russia.b41328698709cf180d8d19cd65d03050.svg",
-    "main.ce5a139d.css.map": "/fight-club/static/css/main.ce5a139d.css.map",
-    "main.0fd97cb2.js.map": "/fight-club/static/js/main.0fd97cb2.js.map"
+    "main.f898cfa2.css.map": "/fight-club/static/css/main.f898cfa2.css.map",
+    "main.18220620.js.map": "/fight-club/static/js/main.18220620.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce5a139d.css",
-    "static/js/main.0fd97cb2.js"
+    "static/css/main.f898cfa2.css",
+    "static/js/main.18220620.js"
   ]
 }
